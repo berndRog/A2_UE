@@ -54,6 +54,7 @@ dependencies {
    // Ui Activity
    // https://developer.android.com/jetpack/androidx/releases/activity
    implementation(libs.androidx.activity.compose)
+   implementation(libs.firebase.firestore.ktx)
    // Ui Compose
    // https://developer.android.com/jetpack/compose/bom/bom-mapping
    val composeBom = platform(libs.androidx.compose.bom)
